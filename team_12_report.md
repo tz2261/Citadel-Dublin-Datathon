@@ -1,6 +1,6 @@
 <div tabindex="-1" id="notebook" class="border-box-sizing">
 
-<div class="container" id="notebook-container"><script>function code_toggle() { if (code_shown){ $('div.input').hide('500'); $('#toggleButton').val('Show Code') } else { $('div.input').show('500'); $('#toggleButton').val('Hide Code') } code_shown = !code_shown } $( document ).ready(function(){ code_shown=false; $('div.input').hide() });</script>
+<div class="container" id="notebook-container">
 
 <form action="javascript:code_toggle()"><input type="submit" id="toggleButton" value="Show Code"></form>
 
@@ -600,7 +600,7 @@ The model we devised was able to successfully correlate two engineered features.
 
 <div class=" highlight hl-ipython3">
 
-<pre><span></span> 
+<pre><span></span>
 </pre>
 
 </div>
